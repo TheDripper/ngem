@@ -1,0 +1,20 @@
+<template>
+  <div>
+    <div id=header class="columns cont">
+    	<div class=column>
+    		<img src=/logo.png />	
+	</div>
+	<div class=column>
+		
+	</div>
+    </div>
+    <nuxt/>
+  </div>
+</template>
+<style>
+.cont {
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+</style>
