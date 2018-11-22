@@ -1,5 +1,5 @@
 <template>
-  <div>
+<div id=ngem>
 <nav class="navbar cont" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
@@ -33,6 +33,14 @@
     
 
     <nuxt/>
+
+<nav class="foot cont">
+    <span id="footer-span-l">Copyright 2011-2018, Northgate Environmental Management, Inc. All Rights Reserved.</span>
+    <a id="thumbtack" href="http://www.thumbtackstudios.com" title="Thumbtack Studios|homepage">Web and Graphic Design | Berkeley | Thumbtack Studios</a>
+</nav>
+
+
+
   </div>
 </template>
 <style>
@@ -43,5 +51,33 @@
 }
 #logo {
 	max-height: none;
+}
+@font-face {
+	font-family: "steiner";
+	src: url("/steiner.ttf");
+}
+h1 {
+	font-family: "steiner";
+	font-size: 36px;
+}
+h2 {
+	font-family: "steiner";
+	font-size: 24px;
+}
+.foot {
+	background: #eee;
+	border-radius: 5px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+
+}
+#ngem {
+	//width: 100vw;
+	//height: 100vh;
+	//display: flex;
+	//flex-direction: column;
+	//justify-content: flex-start;
+	//align-items: center;
 }
 </style>

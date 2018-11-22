@@ -9,9 +9,55 @@
 				</div>
 			</div>
 		</div>
+		<div class="columns copy">
+			<div class="column">
+			<h2 class="home-h2-l">
+			<a href="our-vision/">innovative</a>
+			</h2>
+			<p class="home-p">
+			We believe that it's never too late to right a wrong, and that the restoration of the environment can be successfully achieved through a combination of science and will. 
+			</p>
+			<span class="home-more-span">[ <a href="our-vision/">more about our vision</a> ]</span>
+			</div>
+
+			<div class="column">
+			<h2 class="home-h2-l">
+			<a href="about-northgate">environmental</a>
+			</h2>
+			<p class="home-p">
+			Northgate provides an uncommon level of personalized service and technical acumen on complex projects by embracing innovative and results-oriented environmental science and engineering.
+			</p>
+			<span class="home-more-span">[ <a href="about-northgate">more about Northgate</a> ]</span>
+			</div>
+			<div class="column">
+			<h2 class="home-h2-l">
+			<a href="what-we-do/">solutions</a>
+			</h2>
+			<p class="home-p">
+			We specialize in interdisciplinary technical solutions. We move projects forward and help our clients achieve their objectives within budget, with solutions that are both practical and creative.
+			</p>
+			<span class="home-more-span">[ <a href="what-we-do/">more about what we do</a> ]</span>
+			</div>
+		</div>
 	</div>
 	<div class="column is-one-quarter">
-
+		<h2 class="home-h2-r">
+		<a href="news/">news</a>
+		</h2>
+		<p class="home-p">
+		Have a few minutes? Check out our blog for periodic news and announcements.
+		</p>
+		<img class="home-pic-r margin-b" src="/typewriter.jpg" width="105" height="105">
+		<h2 class="home-h2-r">
+		<a href="about-northgate/working-with-northgate">certifications</a>
+		</h2>
+		<p class="home-p margin-b">
+		Click here for a listing of our <a href="about-northgate/working-with-northgate">small and women-owned business certifications</a>.
+		</p>
+		<h2 class="home-h2-r">
+		<a href="contact-northgate/">contact us</a>
+		</h2>
+		<img class="home-pic-r" src="/booth.jpg" width="105" height="105">
 	</div>
 </div>
   
@@ -107,6 +153,17 @@ export default {
 .full {
 	width: 50%;
 	flex-shrink: 0;
+}
+.home-h2-l {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.home-h2-r {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.home-h2-r:first-child {
+	margin-top: 0;
 }
 
 </style>
