@@ -3,7 +3,7 @@
 <nav class="navbar cont" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
-      <img src="/logo.png" width="112" height="28">
+      <img src="/logo.png" width="248" height="49" id=logo>
     </a>
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
@@ -40,5 +40,8 @@
 	width: 100%;
 	max-width: 1140px;
 	margin: 0 auto;
+}
+#logo {
+	max-height: none;
 }
 </style>
